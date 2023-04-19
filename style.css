@@ -1,0 +1,20 @@
+body{
+    background-color: #414a4c;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    font-size: 80px;
+    text-align: center;
+}
+
+.container{
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #232b2b;
+}
