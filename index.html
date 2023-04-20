@@ -11,11 +11,11 @@
     <h1>The Vault</h1>
     <script>alert("You have received this message because you have been chosen to open an important vault. Here is the secret combination:\n 10 - 40 - 39")</script>
     <div class="container 1">
-        <h2>Try to open the vault: </h2>
-        <p>Phase one:</p>
+        <h2>Try to open the vault </h2>
+        <h3>Phase 1:</h3>
         <div class="inputs">
-            <input type="number" id="input1" placeholder="Enter first number">
-            <input type="number" id="input2" placeholder="Enter second number">
+            <input type="number" id="input1" placeholder="Enter number">
+            <input type="number" id="input2" placeholder="Enter number">
         </div>
         <div class="buttons">
             <button onclick="calculate('+')">Add</button>
@@ -25,7 +25,30 @@
         </div>
     </div>
     <div class="container 2">
-        <p>Phase 2:</p>
+        <h3>Phase 2:</h3>
+        <div class="inputs">
+            <input type="number" id="input3" placeholder="Enter number">
+            <input type="number" id="input4" placeholder="Enter number">
+        </div>
+        <div class="buttons">
+            <button onclick="calculate('-')">Subtract</button>
+        </div>
+        <div class="result2">
+            <p>Result: <span id="result2"></span></p>
+        </div>
+    </div>
+    <div class="container 3">
+        <h3>Phase 3:</h3>
+        <div class="inputs">
+            <input type="number" id="input5" placeholder="Enter number">
+            <input type="number" id="input6" placeholder="Enter number">
+        </div>
+        <div class="buttons">
+            <button onclick="calculate('*')">Multiply</button>
+        </div>
+        <div class="result3">
+            <p>Result: <span id="result3"></span></p>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
