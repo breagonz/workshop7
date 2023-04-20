@@ -18,3 +18,32 @@ h1{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     color: #232b2b;
 }
+
+.inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 45%;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.result {
+    text-align: center;
+    font-size: 18px;
+}

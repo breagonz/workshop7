@@ -10,10 +10,22 @@
 <body>
     <h1>The Vault</h1>
     <script>alert("You have received this message because you have been chosen to open an important vault. Here is the secret combination:\n 10 - 40 - 39")</script>
-    <div class="container">
-        <h2>Try to open the vault:</h2>
-
-
+    <div class="container 1">
+        <h2>Try to open the vault: </h2>
+        <p>Phase one:</p>
+        <div class="inputs">
+            <input type="number" id="input1" placeholder="Enter first number">
+            <input type="number" id="input2" placeholder="Enter second number">
+        </div>
+        <div class="buttons">
+            <button onclick="calculate('+')">Add</button>
+        </div>
+        <div class="result">
+            <p>Result: <span id="result"></span></p>
+        </div>
+    </div>
+    <div class="container 2">
+        <p>Phase 2:</p>
     </div>
     <script src="script.js"></script>
 </body>
